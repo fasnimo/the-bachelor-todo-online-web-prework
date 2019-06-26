@@ -17,7 +17,7 @@ data.each do |season, array|
       end
     end
   end
-  # code here
+  get_contestant_name
 end
 
 def count_contestants_by_hometown(data, hometown)
