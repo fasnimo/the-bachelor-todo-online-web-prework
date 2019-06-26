@@ -9,7 +9,7 @@ end
 
 def get_contestant_name(data, occupation)
 
-  data[:occuptation].each do |season, array|
+  data[:occuptation].collect do |season, array|
     array.each do |people|
       people.each do |string, value|
         if value == "occuptation"
